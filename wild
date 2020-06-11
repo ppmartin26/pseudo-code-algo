@@ -1,0 +1,15 @@
+début Nombre_de_bonbons_max (argent disponible, prix du bonbon)
+
+argent disponible = entrée 1
+prix du bonbon = entrée 2
+
+argent disponible doit etre supérieur à 0
+prix du bonbon doit etre supérieur à 0
+
+Nombre_maximum = argent disponible divisé entierement par prix du bonbon
+
+Retourner Nombre_maximum
+
+### Je ne comprends pas l'intérêt d'utiliser une boucle pour effectuer ce calcul ? ###
+
+
