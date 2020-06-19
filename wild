@@ -1,16 +1,36 @@
-début Nombre_de_bonbons_max (argent disponible, prix du bonbon)
+Début nombre_de_bonbons_max (argent disponible, prix du bonbon)
 
 argent_disponible = entrée 1
 prix_du_bonbon = entrée 2
+nombre_maximum = 0
 
 argent_disponible doit etre supérieur à 0
 prix_du_bonbon doit etre supérieur à 0
 
 Tant que argent_disponible > prix_du_bonbon :
-  Nombre_maximum = argent_disponible divisé entierement par prix_du_bonbon
-  argent_disponible = argent_disponible - (Nombre_maximum * prix_du_bonbon)
+  nombre_maximum = argent_disponible divisé entierement par prix_du_bonbon
+  argent_disponible = argent_disponible - (nombre_maximum * prix_du_bonbon)
+Fin Tant que
 
-Retourner Nombre_maximum
+Imprimer nombre_maximum
+
+Fin nombre_de_bonbons_max
+
+####### VOICI LE CODE A PARTIR DE CE PSEUDO CODE QUI FONCTIONNE BIEN, je ne comprends pas le problème dans la boucle
+
+argent_disponible = float(input())
+prix_du_bonbon = float(input())
+nombre_maximum = 0
+
+argent_disponible > 0
+prix_du_bonbon > 0
+
+while argent_disponible > prix_du_bonbon :
+  nombre_maximum = argent_disponible // prix_du_bonbon
+  argent_disponible = argent_disponible - (nombre_maximum * prix_du_bonbon)
+print(nombre_maximum)
+
+
 
 
 
