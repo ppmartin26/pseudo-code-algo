@@ -16,7 +16,8 @@ Imprimer nombre_maximum
 
 Fin nombre_de_bonbons_max
 
-####### VOICI LE CODE A PARTIR DE CE PSEUDO CODE QUI FONCTIONNE BIEN, je ne comprends pas le problème dans la boucle
+####### VOICI LE CODE A PARTIR DE CE PSEUDO CODE QUI FONCTIONNE BIEN, je ne comprends pas le problème dans la boucle, 
+####### Aussi je ne comprends pas l'utilité d'une boucle puisque la fonction (//) permet de diviser entièrement donc d'avoir un resultat entier
 
 argent_disponible = float(input())
 prix_du_bonbon = float(input())
