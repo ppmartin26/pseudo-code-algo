@@ -1,20 +1,20 @@
-Début nombre_de_bonbons_max (argent disponible, prix du bonbon)
+Début nombreBonbonsMax 
 
-argent_disponible = entrée 1
-prix_du_bonbon = entrée 2
-nombre_maximum = 0
+argentDisponible = entrée 1
+prixBonbon = entrée 2
+NombreMaximum = 0
 
-argent_disponible doit etre supérieur à 0
-prix_du_bonbon doit etre supérieur à 0
+argentDisponible doit etre supérieur à 0
+prixBonbon doit etre supérieur à 0
 
-Tant que argent_disponible >= prix_du_bonbon :
-  argent_disponible <- argent_disponible - prix_du_bonbon
-  nombre_maximum <- nombre_maximum + 1
+Tant que argentDisponible >= prixBonbon :
+  argentDisponible <- argentDisponible - prixBonbon
+  NombreMaximum <- NombreMaximum + 1
 Fin Tant que
 
-Imprimer nombre_maximum
+Retourner NombreMaximum
 
-Fin nombre_de_bonbons_max
+Fin nombreBonbonsMax
 
 
 
